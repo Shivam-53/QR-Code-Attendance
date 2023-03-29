@@ -1,0 +1,17 @@
+{
+  "name": "nodejs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "express": "~4.16.1",
+    "googleapis": "^112.0.0"
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
