@@ -2,7 +2,7 @@ const { google } = require("googleapis");
 
 function attendence(firstName, lastName, sid, rollNum, branch, phoneNum) {
   const auth = new google.auth.GoogleAuth({
-    keyFile: "attendence-KEY.json",
+    keyFile: "Attendance File",
     scopes: "https://www.googleapis.com/auth/spreadsheets",
   });
 
@@ -12,7 +12,7 @@ function attendence(firstName, lastName, sid, rollNum, branch, phoneNum) {
   // Instance of Google Sheets API
   const googleSheets = google.sheets({ version: "v4", auth: client });
 
-  const spreadsheetId = "1jdKfmg2wzm0lQXYBRNL_sQIOfz-nb_iSADB0yNDLaVw";
+  const spreadsheetId = "Spreadsheet ID";
   // 1jdKfmg2wzm0lQXYBRNL_sQIOfz-nb_iSADB0yNDLaVw
 
   // Get metadata about spreadsheet
