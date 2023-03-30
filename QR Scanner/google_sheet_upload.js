@@ -13,7 +13,7 @@ function attendence(firstName, lastName, sid, rollNum, branch, phoneNum) {
   const googleSheets = google.sheets({ version: "v4", auth: client });
 
   const spreadsheetId = "Spreadsheet ID";
-  // 1jdKfmg2wzm0lQXYBRNL_sQIOfz-nb_iSADB0yNDLaVw
+
 
   // Get metadata about spreadsheet
   const metaData = googleSheets.spreadsheets.get({
